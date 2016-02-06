@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'reviews',
     'bootstrap3',
+    'registration',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -53,6 +54,7 @@ MIDDLEWARE_CLASSES = (
 )
 
 ROOT_URLCONF = 'winerama.urls'
+LOGIN_REDIRECT_URL = '/reviews/review/user'
 
 TEMPLATES = [
     {
