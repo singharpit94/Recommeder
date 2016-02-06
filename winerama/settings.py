@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'reviews',
+    'bootstrap3',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -68,8 +69,7 @@ TEMPLATES = [
         },
     },
 ]
-PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TEMPLATE_DIRS = (os.path.join(PROJECT_ROOT, 'templates'),)
+
 
 WSGI_APPLICATION = 'winerama.wsgi.application'
 
